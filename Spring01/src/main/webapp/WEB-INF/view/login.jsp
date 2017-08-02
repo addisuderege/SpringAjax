@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<h3>Login using UserName and Password</h3>
+	<h2>Login using UserName and Password</h2><hr/>
 
 	<c:if test="${param.error!=null }">
 
@@ -43,4 +43,4 @@
 	</div>
 </body>
 
-</html>
+</html> 
