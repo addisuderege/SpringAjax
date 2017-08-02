@@ -2,6 +2,7 @@ package edu.mum.domain;
 
 //Book entity
 //@XmlRootElement
+//new change
 public class Book {
 	private String isbn;
 	private String title;
