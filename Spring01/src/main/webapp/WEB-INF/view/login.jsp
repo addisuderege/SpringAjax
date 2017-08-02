@@ -14,7 +14,7 @@
 <body>
 	<h2>Login using UserName and Password</h2><hr/>
 
-	<c:if test="${param.error!=null }">
+	<c:if test="${param.error!=null}">
 
 		<p class="error">Login Failed. check userName and password are
 			correct!</p>
