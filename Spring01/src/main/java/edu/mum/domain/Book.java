@@ -1,7 +1,6 @@
 package edu.mum.domain;
 
-import javax.xml.bind.annotation.XmlRootElement;
-
+//Book entity
 //@XmlRootElement
 public class Book {
 	private String isbn;
