@@ -28,6 +28,7 @@ public class BookController {
 	private BookService bookService;
 	
 	
+	
 	@RequestMapping(value="/addBook",method=RequestMethod.GET)
 	public String showAddBookForm(@ModelAttribute("NewBook") Book book,Model model){
 		return "AddBookForm";
@@ -72,6 +73,7 @@ public @ResponseBody List<Book>AllBooks_JSON(){
 public @ResponseBody String hello(@PathVariable("name") String name){	
 return "Hello "+name;
 }
+
 
 @RequestMapping(value="/book1",method=RequestMethod.GET)
 public @ResponseBody Book OneBook(){	
